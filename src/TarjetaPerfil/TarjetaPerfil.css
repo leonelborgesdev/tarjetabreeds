@@ -21,3 +21,14 @@
     box-shadow: 0 2px 15px #000;
     transform: rotate(25deg);
 }
+.shape img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    margin-left: 140px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px #3a3636;
+    transform: rotate(-20deg);
+}
