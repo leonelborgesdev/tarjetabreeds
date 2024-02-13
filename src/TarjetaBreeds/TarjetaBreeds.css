@@ -26,3 +26,21 @@ body{
      #01dbc2 10%, transparent 10%, transparent 50%);
      animation: animate 6s linear infinite;
 }
+@keyframes animate {
+    0%{
+        --a: 0deg
+    }
+    100%{
+        --a: 360deg
+    }
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), #01dbc2 0%,
+     #01dbc2 10%, transparent 10%, transparent 50%);
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
