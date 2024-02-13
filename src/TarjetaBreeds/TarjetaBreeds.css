@@ -10,6 +10,11 @@ body{
     min-height: 100vh;
     background: #222;;
 }
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
 .box{
     position: relative;
     width: 400px;
@@ -17,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: repeating-conic-gradient(from 0deg, #01dbc2 0%,
+    background: repeating-conic-gradient(from var(--a), #01dbc2 0%,
      #01dbc2 10%, transparent 10%, transparent 50%);
+     animation: animate 6s linear infinite;
 }
