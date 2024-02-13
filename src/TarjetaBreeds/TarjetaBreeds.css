@@ -10,3 +10,13 @@ body{
     min-height: 100vh;
     background: #222;;
 }
+.box{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: repeating-conic-gradient(from 0deg, #01dbc2 0%,
+     #01dbc2 10%, transparent 10%, transparent 50%);
+}
