@@ -56,3 +56,32 @@ form{
     position: relative;
     z-index: 2;
 }
+form h2{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.inputBx{
+    position: relative;
+    margin-bottom: 40px;
+    width: 240px;
+}
+.inputBx span{
+    position: absolute;
+    inset: -2px;
+    z-index: 1;
+}
+.inputBx span::before{
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: repeating-conic-gradient(from var(--a), #01dbc2 0%,
+     #01dbc2 10%, transparent 10%, transparent 50%);
+     animation: animate 6s linear infinite;
+     box-shadow: 0 0 0 2px #000;
+}

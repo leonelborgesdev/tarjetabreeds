@@ -6,11 +6,11 @@ export const TarjetaBreeds = () => {
     <div className="box">
       <form>
         <h2>Login</h2>
-        <div className="inputtBx">
+        <div className="inputBx">
           <span></span>
           <input type="text" placeholder="Username" />
         </div>
-        <div className="inputtBx">
+        <div className="inputBx">
           <span></span>
           <input type="password" placeholder="Username" />
         </div>
