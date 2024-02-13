@@ -85,3 +85,56 @@ form h2{
      animation: animate 6s linear infinite;
      box-shadow: 0 0 0 2px #000;
 }
+.inputBx::nth-child(2) span::before{
+    animation-delay: -1.5s;
+}
+.inputBx span::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #292929;
+}
+.inputBx input{
+    position: relative;
+    z-index: 3;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 8px 14px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.inputBx input::placeholder{
+    color: #fff;
+    opacity: 0.5;
+}
+.inputBx input[type= "submit"]{
+    background: #01dbc2;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #01dbc2;
+    width: 100%;
+    font-weight: 500;
+    color: #292929;
+    filter: drop-shadow(0 0 15px #01dbc2);
+}
+.group{
+    position: relative;
+    top: -10px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.group a{
+    text-decoration: none;
+    color: #fff8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+}
+.group a:nth-child(2),
+.group a:hover{
+    color: #01dbc2;
+    filter:drop-shadow(0 0 5px #01dbc2)
+}
