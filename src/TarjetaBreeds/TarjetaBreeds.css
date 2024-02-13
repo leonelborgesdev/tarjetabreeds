@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #222;;
+    background: #fff;;
 }
 @property --a{
     syntax: '<angle>';
@@ -49,7 +49,7 @@ body{
     content: '';
     position: absolute;
     inset: 2px;
-    border: 20px solid #222;
+    border: 20px solid #fff;
     background: #303030;
 }
 form{

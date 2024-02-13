@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.shape{
+    background-color: #002244;
+    height: 250px;
+    width: 500px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
+}
