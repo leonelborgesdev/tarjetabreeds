@@ -1,4 +1,5 @@
 import React from "react";
+import "./TarjetaMovible.css";
 
 export const TarjetaMovible = () => {
   return (
