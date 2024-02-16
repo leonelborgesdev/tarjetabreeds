@@ -10,7 +10,7 @@ export const TarjetaMovible = () => {
       </div>
       <div className="face back">
         <h3>Japan</h3>
-        <p>Lorme</p>
+        <p>Lorem</p>
         <div className="link">
           <a href="#">Detail</a>
         </div>
