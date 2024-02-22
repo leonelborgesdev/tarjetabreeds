@@ -10,7 +10,11 @@ export const TarjetaMovible = () => {
       </div>
       <div className="face back">
         <h3>Japan</h3>
-        <p>Lorem</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum
+          molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam
+          nulla fuga odio non aperiam eos?
+        </p>
         <div className="link">
           <a href="#">Detail</a>
         </div>
