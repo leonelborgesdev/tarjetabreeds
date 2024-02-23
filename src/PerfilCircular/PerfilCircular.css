@@ -1,0 +1,10 @@
+.container_perfil{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+.container_perfil::before{
+    content: '';
+}
