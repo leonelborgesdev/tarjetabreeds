@@ -4,6 +4,7 @@
     height: 400px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
+    overflow: hidden;
 }
 .container_perfil::before{
     content: '';
@@ -22,4 +23,12 @@
     0%{
         transform: rotate(360deg);
     }
+}
+.container_perfil::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
 }
